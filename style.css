@@ -1,36 +1,34 @@
 /*home page*/
-html{
-    background-color: black;
+html {
+  background-color: black;
 }
 
-
-body{
-    margin: auto;
-    width: 1200px;
-    padding: 40px;
-    background-color: aliceblue;
+body {
+  margin: auto;
+  width: 1200px;
+  padding: 40px;
+  background-color: aliceblue;
 }
 
 /*header*/
-header{
-  z-index:1;
-  position:relative;
-}
-h1{
-    font-family: 'Vidaloka', serif;
+header {
+  z-index: 1;
+  position: relative;
 }
 
-#title{
-  font-family: 'Vidaloka', serif;
+h1 {
+  font-family: "Vidaloka", serif;
+}
+
+#title {
+  font-family: "Vidaloka", serif;
   text-align: center;
   margin-top: -50px;
 }
 
 /*Modification du nav*/
 
-#menuHM
-{
-  
+#menuHM {
   display: block;
   position: absolute;
   top: -5px;
@@ -39,20 +37,17 @@ h1{
   user-select: none;
 }
 
-#menuHM a
-{
+#menuHM a {
   text-decoration: none;
   color: #232323;
   transition: color 0.3s ease;
 }
 
-#menuHM a:hover
-{
+#menuHM a:hover {
   color: tomato;
 }
 
-#menuHM input
-{
+#menuHM input {
   display: block;
   width: 40px;
   height: 32px;
@@ -60,58 +55,49 @@ h1{
   top: -7px;
   left: -5px;
   cursor: pointer;
-  opacity: 0; 
-  z-index: 2; 
+  opacity: 0;
+  z-index: 2;
   -webkit-touch-callout: none;
 }
 
-#menuHM span
-{
+#menuHM span {
   display: block;
   width: 33px;
   height: 4px;
   margin-bottom: 5px;
   position: relative;
-  background: #232323;;
+  background: #232323;
   border-radius: 3px;
   z-index: 1;
   transform-origin: 4px 0px;
-  transition: transform 0.5s cubic-bezier(0.77,0.2,0.05,1.0),
-              background 0.5s cubic-bezier(0.77,0.2,0.05,1.0),
-              opacity 0.55s ease;
+  transition: transform 0.5s cubic-bezier(0.77, 0.2, 0.05, 1),
+    background 0.5s cubic-bezier(0.77, 0.2, 0.05, 1), opacity 0.55s ease;
 }
 
-#menuHM span:first-child
-{
+#menuHM span:first-child {
   transform-origin: 0% 0%;
 }
 
-#menuHM span:nth-last-child(2)
-{
+#menuHM span:nth-last-child(2) {
   transform-origin: 0% 100%;
 }
 
-
-#menuHM input:checked ~ span
-{
+#menuHM input:checked ~ span {
   opacity: 1;
   transform: rotate(45deg) translate(-2px, -1px);
   background: #232323;
 }
 
-#menuHM input:checked ~ span:nth-last-child(3)
-{
+#menuHM input:checked ~ span:nth-last-child(3) {
   opacity: 0;
   transform: rotate(0deg) scale(0.2, 0.2);
 }
 
-#menuHM input:checked ~ span:nth-last-child(2)
-{
+#menuHM input:checked ~ span:nth-last-child(2) {
   transform: rotate(-45deg) translate(0, -1px);
 }
 
-#menu
-{
+#menu {
   position: absolute;
   width: 300px;
   margin: -100px 0 0 -40px;
@@ -119,21 +105,19 @@ h1{
   padding-top: 125px;
   background: #f2f1f0;
   list-style-type: none;
-  -webkit-font-smoothing: antialiased; 
+  -webkit-font-smoothing: antialiased;
   transform-origin: 0% 0%;
   transform: translate(-100%, 0);
-  transition: transform 0.5s cubic-bezier(0.77,0.2,0.05,1.0);
+  transition: transform 0.5s cubic-bezier(0.77, 0.2, 0.05, 1);
   opacity: 0;
 }
 
-#menu li
-{
+#menu li {
   padding: 10px 0;
   font-size: 22px;
 }
 
-#menuHM input:checked ~ ul
-{
+#menuHM input:checked ~ ul {
   transform: none;
   opacity: 1;
   text-decoration: none;
@@ -141,72 +125,69 @@ h1{
 
 /*modification du navigateur secondaire*/
 
-#nav2{
-    margin-left: 62px;
+#nav2 {
+  margin-left: 62px;
 }
 
-#nav2 ul{
-    list-style-type: none;
-    list-style-type: none;
-    list-style-type: none;
-    justify-content: space-between;
-    display: flex;
-    width: 142px;
- 
+#nav2 ul {
+  list-style-type: none;
+  list-style-type: none;
+  list-style-type: none;
+  justify-content: space-between;
+  display: flex;
+  width: 142px;
 }
 
 /*modificatin search bar !!!!!!*/
-.search{
-    float: right;
-    margin-right: 80px;
-    margin-top: -55px;
-    transition: margin-left 2s;
-    border-radius: 30px;
-    background-color: rgb(187, 196, 206);
-    position: relative;
-    z-index: 2;
+.search {
+  float: right;
+  margin-right: 80px;
+  margin-top: -55px;
+  transition: margin-left 2s;
+  border-radius: 30px;
+  background-color: rgb(187, 196, 206);
+  position: relative;
+  z-index: 2;
 }
 
-.search-in{
+.search-in {
   width: 21px;
   border-radius: 30px;
   margin: 10px;
 }
 
-.search-in:hover{
-  
+.search-in:hover {
   width: 400px;
-
 }
 
-.btnsearch{
- 
+.btnsearch {
   border-radius: 30px;
   margin-right: -70px;
-
 }
 
 /*partie de la secton*/
 
-.clear{
+.clear {
   clear: both;
 }
 
 /*icon*/
 
-.iconleft{
-
-  margin-top: 100px;
+.iconleft {
   display: grid;
+  position: relative;
+  bottom: -400px;
+  margin-left: 20px;
 }
 
 .fab {
   font-family: "Font Awesome 5 Brands";
   padding: 10px;
 }
+
 /*photo*/
 
-.sg-photo{
+.sg-photo {
   margin-top: -133px;
   margin-left: 172px;
   position: absolute;
@@ -214,14 +195,17 @@ h1{
   z-index: 1;
 }
 
-
 /*div dregrader*/
 
-#degrad{
+#degrad {
   float: right;
   width: 520px;
   height: 520px;
-  background-image: linear-gradient(60deg,rgb(201, 233, 241),rgb(137, 169, 245));
+  background-image: linear-gradient(
+    60deg,
+    rgb(201, 233, 241),
+    rgb(137, 169, 245)
+  );
   margin-top: -325px;
   margin-right: -40px;
   position: relative;
@@ -230,86 +214,360 @@ h1{
 
 /*les numeros*/
 
-.num-right{
+.num-right {
   float: right;
   margin-top: 215px;
   margin-right: -310px;
   font-size: 10px;
 }
 
-.num-right li{
-  padding: 10px; 
-  
+.num-right li {
+  padding: 10px;
 }
-.num-right ol{
+
+.num-right ol {
   list-style-type: none;
 }
+
 /* Police Derek Anderson*/
-.derek{
+.derek {
   margin-left: 120px;
-  color:  gray;
+  color: gray;
   position: absolute;
   z-index: 2;
   font-size: 40px;
   font-family: sans serif;
+}
 
+.derek h1 {
+  font-family: "Montserrat", sans-serif;
 }
-.derek h1{
-  font-family: 'Montserrat', sans-serif;
-}
-.derek h6{
-  font-family: 'Roboto', sans-serif;
+
+.derek h6 {
+  font-family: "Roboto", sans-serif;
   font-size: 15px;
   text-transform: uppercase;
 }
+
 /*Lien profil*/
-.viewProfile{
-  font-family: 'Roboto', sans-serif;
+.viewProfile {
+  font-family: "Roboto", sans-serif;
   font-weight: bold;
   margin-top: 303px;
   width: 132px;
   text-align: center;
-  color:white;
+  color: white;
   text-transform: uppercase;
   background-color: #a6c6f3;
   padding: 20px;
 }
-.viewProfile p{
-  font-size:10px;
-  letter-spacing: .2rem;
 
-}
-.play{
-  background-color:white;
-width: 72px;
-height: 72px;
-z-index: 3;
-position: relative;
-margin-left: 172px;
-margin-top: -72px;
+.viewProfile p {
+  font-size: 10px;
+  letter-spacing: 0.2rem;
 }
 
-.play i{
+.play {
+  background-color: white;
+  width: 72px;
+  height: 72px;
+  z-index: 3;
+  position: relative;
+  margin-left: 172px;
+  margin-top: -72px;
+}
+
+.play i {
   padding: 13px;
-font-size: 45px;
-}
-/*Menu actor,musician...*/
-.menu{
-  
+  font-size: 45px;
 }
 
-.menu ul{
+/*Menu actor,musician...*/
+.menu {
+}
+
+.menu ul {
   width: 400px;
-text-align: justify;
-margin: auto;
-margin-top: 40px;
-display: flex;
+  text-align: justify;
+  margin: auto;
+  margin-top: 40px;
+  display: flex;
   justify-content: space-between;
 }
-.menu li{
+
+.menu li {
   list-style-type: none;
-  font-family: 'Roboto', sans-serif;
+  font-family: "Roboto", sans-serif;
   font-weight: bold;
-  letter-spacing: .2rem;
-  
+  letter-spacing: 0.2rem;
+}
+
+/* ajout page à propos */
+
+.haut {
+  display: flex;
+  margin-right: -40px;
+  margin-left: -40px;
+  margin-top: -110px;
+  height: 800px;
+}
+
+.gauche {
+  background-image: url("images/profile.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  width: 40%;
+  flex-direction: column;
+}
+
+.droite {
+  width: 768px;
+  height: 800px;
+  display: grid;
+  grid-template-columns: 20% 20% 20% 20% 20%;
+  grid-template-rows: 20% 20% 20% 20% 20%;
+  grid-column-gap: 0px;
+  grid-row-gap: 0px;
+  background-color: white;
+}
+.contactus {
+  width: 70%;
+  height: 100px;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  background: rgb(221, 255, 253);
+  background: linear-gradient(
+    28deg,
+    rgba(221, 255, 253, 1) 0%,
+    rgba(229, 231, 255, 1) 30%,
+    rgba(166, 206, 214, 1) 100%
+  );
+  position: relative;
+  bottom: -556px;
+}
+
+.vraicontact {
+  color: white;
+}
+
+.contactus h3 {
+  margin-right: -70px;
+  font-family: "Montserrat";
+}
+
+.symbole {
+  background-color: white;
+  padding: 40px;
+  margin-right: -70px;
+}
+
+.degradeinutile {
+  grid-column-start: 5;
+  grid-row-start: 1;
+  grid-row-end: 3;
+  background: rgb(221, 255, 253);
+  background: linear-gradient(
+    28deg,
+    rgba(221, 255, 253, 1) 0%,
+    rgba(229, 231, 255, 1) 30%,
+    rgba(166, 206, 214, 1) 100%
+  );
+}
+
+.ag-texte {
+  grid-column-start: 2;
+  grid-column-end: 4;
+  grid-row-start: 2;
+  grid-row-end: 4;
+  text-align: left;
+  font-family: "Roboto";
+  margin-right: -100px;
+  padding-right: 2em;
+
+  margin-top: -30px;
+}
+
+.ag-texte p {
+  color: rgb(167, 164, 164);
+  line-height: 1.8;
+  font-size: 20px;
+}
+.ag-texte h3 {
+  font-family: "Montserrat";
+  text-align: center;
+}
+
+.ag-texte h3::first-letter {
+  font-size: 140%;
+}
+
+.ag-fond {
+  background-color: black;
+  color: white;
+  grid-column-start: 2;
+  grid-column-end: 4;
+  grid-row-start: 5;
+  text-align: center;
+  margin: -20px -75px 0px 0px;
+}
+
+.ag-fond p {
+  margin-top: 4em;
+}
+
+/* Modification de la page "A propos" par Geoffrey le 21-01-2020 */
+
+.parent {
+  display: flex;
+  align-items: center;
+  padding: 1em;
+  justify-content: center;
+  align-items: center;
+  margin: 0px auto;
+}
+
+.imageabout {
+  height: 250px;
+  width: 250px;
+}
+.imageabout:hover {
+  -webkit-filter: opacity(90%); /* Safari */
+  filter: opacity(60%);
+}
+
+.changementimage {
+  margin-right: 100px;
+  margin-left: 100px;
+  color: gray;
+}
+
+.changementimage:hover {
+  color: red;
+  animation: rotationFleche 1s linear;
+}
+@keyframes rotationFleche {
+  0% {
+    transform: rotateX(0);
+  }
+  100% {
+    transform: rotateX(360deg);
+  }
+}
+
+.textChild {
+  opacity: 0px;
+}
+
+/* Modification de la page client apr Geoffrey le 22/01/2020 */
+
+#sectionbasclient {
+  width: 1100px;
+  height: 1000px;
+  position: relative;
+  left: 140px;
+}
+#titresectionbasclient {
+  color: white;
+  font-size: 2.5em;
+  position: relative;
+  right: 50px;
+  bottom: -200px;
+  z-index: 1;
+  color: black;
+  font-family: "Vidaloka", serif;
+}
+#titresectionbasclient2 {
+  color: white;
+  font-size: 2.5em;
+  position: relative;
+  right: 50px;
+  bottom: -145px;
+  z-index: 1;
+  color: black;
+  font-family: "Vidaloka", serif;
+}
+#titresectionbasclient3 {
+  color: white;
+  font-size: 1em;
+  position: relative;
+  right: 50px;
+  bottom: -145px;
+  z-index: 1;
+  color: black;
+  font-family: "Vidaloka", serif;
+}
+#gridbasclient {
+  display: grid;
+  grid-template-columns: 20% 20% 20% 20% 20%;
+  grid-template-rows: 20% 20% 20% 20% 20%;
+
+  width: 1100px;
+  height: 500px;
+  margin: 0px 0px 0px 0px;
+  position: relative;
+  top: -215px;
+}
+
+#placementimageclient {
+  grid-column-start: 1;
+  grid-column-end: 8;
+  background-color: #d3d8db;
+  grid-row-start: 1;
+  grid-row-end: 6;
+}
+
+#image1basclient {
+  position: relative;
+  left: 200px;
+  top: -320px;
+  height: 320px;
+  width: 320px;
+}
+#carresectionbasclient {
+  grid-column-start: 4;
+  grid-column-end: 8;
+  background-color: #a3c5d8;
+  grid-row-start: 3;
+  grid-row-end: 6;
+}
+
+#iconsectionbasclient {
+  color: white;
+  display: flex;
+  flex-direction: column;
+  padding-left: 30px;
+  padding-top: 40px;
+}
+#dernierboxclient {
+  position: relative;
+  height: 250px;
+  width: 250px;
+  top: -30px;
+  left: 630px;
+  display: flex;
+  justify-content: flex-end;
+  align-items: flex-end;
+}
+
+#derniereimageclient {
+  height: 350px;
+  width: 350px;
+}
+
+#positionementdessousclient {
+  position: relative;
+  top: -230px;
+  height: 235px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  flex-wrap: nowrap;
+  padding-left: 50px;
+  left: -180px;
+}
+#textdessouspositionclient {
+  position: relative;
+  left: -445px;
+  font-size: 1.3em;
 }
