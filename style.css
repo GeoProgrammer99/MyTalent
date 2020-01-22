@@ -222,7 +222,7 @@ h1{
   width: 520px;
   height: 520px;
   background-image: linear-gradient(60deg,rgb(201, 233, 241),rgb(172, 192, 240));
-  margin-top: -325px;
+  margin-top: -700px;
   margin-right: -40px;
   position: relative;
   z-index: 0;
@@ -281,12 +281,12 @@ h1{
 }
 .play{
   background-color:white;
-width: 72px;
-height: 72px;
-z-index: 3;
-position: relative;
-margin-left: 172px;
-margin-top: -72px;
+  width: 72px;
+  height: 72px;
+  z-index: 3;
+  position: relative;
+  margin-left: 172px;
+  margin-top: -72px;
 }
 
 .play i{
