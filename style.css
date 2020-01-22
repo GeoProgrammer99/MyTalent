@@ -6,15 +6,24 @@ html{
 
 body{
     margin: auto;
-    width: 100%;
+    width: 1200px;
     padding: 40px;
     background-color: aliceblue;
 }
 
 /*header*/
-
+header{
+  z-index:1;
+  position:relative;
+}
 h1{
     font-family: 'Vidaloka', serif;
+}
+
+#title{
+  font-family: 'Vidaloka', serif;
+  text-align: center;
+  margin-top: -50px;
 }
 
 /*Modification du nav*/
@@ -24,8 +33,7 @@ h1{
   
   display: block;
   position: absolute;
-  top: 50px;
-  left: 50px;
+  top: -5px;
   z-index: 1;
   -webkit-user-select: none;
   user-select: none;
@@ -106,10 +114,10 @@ h1{
 {
   position: absolute;
   width: 300px;
-  margin: -100px 0 0 -50px;
+  margin: -100px 0 0 -40px;
   padding: 50px;
   padding-top: 125px;
-  background: #ededed;
+  background: #f2f1f0;
   list-style-type: none;
   -webkit-font-smoothing: antialiased; 
   transform-origin: 0% 0%;
@@ -150,21 +158,343 @@ h1{
 /*modificatin search bar !!!!!!*/
 .search{
     float: right;
-margin-right: 80px;
-margin-top: -50px;
+    margin-right: 80px;
+    margin-top: -55px;
+    transition: margin-left 2s;
+    border-radius: 30px;
+    background-color: rgb(187, 196, 206);
+    position: relative;
+    z-index: 2;
 }
 
-.search::before{
-
-    opacity: 0;
+.search-in{
+  width: 21px;
+  border-radius: 30px;
+  margin: 10px;
 }
 
-.search::after{
-   opacity: 1;
-}
+.search-in:hover{
+  
+  width: 400px;
 
+}
 
 .btnsearch{
+ 
+  border-radius: 30px;
+  margin-right: -70px;
 
 }
+
+/*partie de la secton*/
+
+.clear{
+  clear: both;
+}
+
+/*icon*/
+
+.iconleft{
+
+  margin-top: 100px;
+  display: grid;
+}
+
+.fab {
+  font-family: "Font Awesome 5 Brands";
+  padding: 10px;
+}
+/*photo*/
+
+.sg-photo{
+  margin-top: -133px;
+  margin-left: 172px;
+  position: absolute;
+  width: 40%;
+  z-index: 1;
+}
+
+
+/*div dregrader*/
+
+#degrad{
+  float: right;
+  width: 520px;
+  height: 520px;
+  background-image: linear-gradient(60deg,rgb(201, 233, 241),rgb(137, 169, 245));
+  margin-top: -325px;
+  margin-right: -40px;
+  position: relative;
+  z-index: 0;
+}
+
+/*les numeros*/
+
+.num-right{
+  float: right;
+  margin-top: 215px;
+  margin-right: -310px;
+  font-size: 10px;
+}
+
+.num-right li{
+  padding: 10px; 
+  
+}
+.num-right ol{
+  list-style-type: none;
+}
+/* Police Derek Anderson*/
+.derek{
+  margin-left: 120px;
+  color:  gray;
+  position: absolute;
+  z-index: 2;
+  font-size: 40px;
+  font-family: sans serif;
+
+}
+.derek h1{
+  font-family: 'Montserrat', sans-serif;
+}
+.derek h6{
+  font-family: 'Roboto', sans-serif;
+  font-size: 15px;
+  text-transform: uppercase;
+}
+/*Lien profil*/
+.viewProfile{
+  font-family: 'Roboto', sans-serif;
+  font-weight: bold;
+  margin-top: 303px;
+  width: 132px;
+  text-align: center;
+  color:white;
+  text-transform: uppercase;
+  background-color: #a6c6f3;
+  padding: 20px;
+}
+.viewProfile p{
+  font-size:10px;
+  letter-spacing: .2rem;
+
+}
+.play{
+  background-color:white;
+width: 72px;
+height: 72px;
+z-index: 3;
+position: relative;
+margin-left: 172px;
+margin-top: -72px;
+}
+
+.play i{
+  padding: 13px;
+font-size: 45px;
+}
+/*Menu actor,musician...*/
+.menu{
+  
+}
+
+.menu ul{
+  width: 400px;
+text-align: justify;
+margin: auto;
+margin-top: 40px;
+display: flex;
+  justify-content: space-between;
+}
+.menu li{
+  list-style-type: none;
+  font-family: 'Roboto', sans-serif;
+  font-weight: bold;
+  letter-spacing: .2rem;
+  
+}
+
+
+/* Modification de la page "A propos" par Geoffrey le 21-01-2020 */
+
+.parent{
+
+  display: flex;
+  align-items: center;
+  padding : 1em;
+  justify-content: center;
+  align-items: center;
+  margin : 0px auto ;
+  
+  }
+  
+  .imageabout{
+  height: 250px;
+  width: 250px;
+  
+  }
+  .imageabout:hover{
+    
+    -webkit-filter: opacity(90%); /* Safari */
+    filter: opacity(60%);
+  }
+  
+  
+  .changementimage{
+    margin-right: 100px;
+    margin-left: 100px;
+    color : gray;
+  }
+
+.changementimage:hover{
+  color:red;
+  animation: rotationFleche 1s linear;
+  
+}
+@keyframes rotationFleche{
+  0%{
+    transform: rotateX(0);
+  }
+  100%{
+    transform: rotateX(360deg);
+  }
+}
+
+.textChild{
+  opacity: 0px;
+}
+
+/* Modification de la page client apr Geoffrey le 22/01/2020 */
+
+#sectionbasclient{
+  
+  width: 1100px;
+  height: 1000px;
+  position: relative;
+  left:140px;
+ 
+  
+  
+
+}
+#titresectionbasclient{
+  color:white;
+  font-size: 2.5em;
+  position: relative;
+  right: 50px;
+  bottom: -200px;
+  z-index: 1;
+  color:black;
+  font-family: 'Vidaloka', serif;
+}
+#titresectionbasclient2{
+  color:white;
+  font-size: 2.5em;
+  position: relative;
+  right: 50px;
+  bottom: -145px;
+  z-index: 1;
+  color:black;
+  font-family: 'Vidaloka', serif;
+  
+}
+#titresectionbasclient3{
+  color:white;
+  font-size: 1em;
+  position: relative;
+  right: 50px;
+  bottom: -145px;
+  z-index: 1;
+  color:black;
+  font-family: 'Vidaloka', serif;
+ 
+}
+#gridbasclient{
+  
+  display: grid;
+  grid-template-columns: 20% 20% 20% 20% 20%;
+  grid-template-rows: 20% 20% 20% 20% 20%;
+ 
+  width: 1100px;
+  height: 500px;
+margin : 0px 0px 0px 0px;
+position : relative;
+top: -215px;
+
+  
+}
+
+#placementimageclient{
+  
+  grid-column-start:1;
+  grid-column-end: 8;
+  background-color: #d3d8db;
+  grid-row-start : 1;
+  grid-row-end: 6; 
+}
+
+#image1basclient{
+  position: relative;
+  left:200px;
+  top : -320px;
+  height:320px;
+  width:320px;
+  
+}
+#carresectionbasclient{
+  grid-column-start:4;
+  grid-column-end: 8;
+  background-color: #a3c5d8;
+  grid-row-start : 3;
+  grid-row-end: 6; 
+ 
+}
+
+#iconsectionbasclient{
+  color:white;
+  display:flex;
+  flex-direction: column;
+  padding-left:30px;
+  padding-top:40px;
+  
+}
+#dernierboxclient{
+
+ position: relative;
+  height: 250px;
+  width:250px; 
+  top:-30px;
+  left: 630px;
+  display: flex;
+  justify-content: flex-end;
+  align-items: flex-end;
+  
+}
+
+#derniereimageclient{
+  height: 350px;
+  width: 350px;
+  
+}
+
+#positionementdessousclient{
+  
+  position: relative;
+  top:-230px;
+  height: 235px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  flex-wrap: nowrap;
+  padding-left: 50px;
+  left:-180px;
+  
+}
+#textdessouspositionclient{
+  position: relative;
+  left:-445px;
+  font-size: 1.3em;
+}
+
+
 
