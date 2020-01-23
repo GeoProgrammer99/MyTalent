@@ -625,3 +625,101 @@ font-size: 45px;
   float: right;
   margin-top: -44px;
 }
+
+
+/*les ligne en desous de ce commentaire sont pour la page contact*/
+
+
+.SG-parent{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: 1fr;
+    grid-column-gap: 0px;
+    grid-row-gap: 0px;
+}
+
+.SG-child1{
+  grid-column-start: 1;
+  grid-column-end: 2;
+  margin-top: -103px;
+  margin-left: -40px;
+}
+
+.SG-child1 img{
+  width: 110%;
+}
+
+.SG-title{
+
+}
+
+.SG-get{
+
+}
+
+.SG-child2{
+  grid-column-start: 2;
+  grid-column-end: 4;
+  margin-left: 85px;
+}
+
+.SG-text{
+  width: 400px;
+  font-size: 25px;
+  font-family: 'Roboto', sans-serif;
+}
+
+.SG-bigletter{
+  text-transform:uppercase;
+  font-size:35px ;
+  font-family: 'Roboto', sans-serif;
+}
+
+.SG-adress{
+
+}
+
+.SG-phone{
+
+}
+
+.SG-mail{
+
+}
+
+.SG-child3{
+  background-image: linear-gradient(60deg,rgb(201, 233, 241),rgb(172, 192, 240));
+  height: 350px;
+  float: right;
+  position: absolute;
+  margin-left: 1000px;
+  width: 240px;
+}
+
+/*ici j'effectue le changement de couleur de nav*/
+
+#SG-nav2{
+  margin-left: 62px;
+}
+
+#SG-nav2 ul{
+  list-style-type: none;
+  list-style-type: none;
+  list-style-type: none;
+  justify-content: space-between;
+  display: flex;
+  width: 142px;
+  color: white;
+}
+
+span .SG-blanc{
+  background: white !important;
+}
+
+#menuHM .last{
+  background: white;
+}
+
+
+
+/*fin de contact*/
