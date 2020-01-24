@@ -1519,6 +1519,10 @@ p .SG-logo{
 margin-left: 62px;
 }
 
+#SG-nav2 li{
+  color: white;
+  }
+
 #SG-nav2 ul{
 list-style-type: none;
 list-style-type: none;
@@ -1526,7 +1530,7 @@ list-style-type: none;
 justify-content: space-between;
 display: flex;
 width: 142px;
-color: white;
+
 }
 
 span .SG-blanc{
