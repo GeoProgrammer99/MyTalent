@@ -625,3 +625,295 @@ font-size: 45px;
   float: right;
   margin-top: -44px;
 }
+
+/* Modification de la page "A propos" par Geoffrey le 21-01-2020 */
+
+.parent{
+
+  display: flex;
+  align-items: center;
+  padding : 1em;
+  justify-content: center;
+  align-items: center;
+  margin : 0px auto ;
+  
+  }
+  
+  .imageabout{
+  height: 250px;
+  width: 250px;
+  
+  }
+  .imageabout:hover{
+    
+    -webkit-filter: opacity(90%); /* Safari */
+    filter: opacity(60%);
+  }
+  
+  
+  .changementimage{
+    margin-right: 100px;
+    margin-left: 100px;
+    color : gray;
+  }
+
+.changementimage:hover{
+  color:red;
+  animation: rotationFleche 1s linear;
+  
+}
+@keyframes rotationFleche{
+  0%{
+    transform: rotateX(0);
+  }
+  100%{
+    transform: rotateX(360deg);
+  }
+}
+
+.textChild{
+  opacity: 0px;
+}
+
+/* Modification de la page client apr Geoffrey le 22/01/2020 */
+
+#sectionbasclient{
+  
+  width: 1100px;
+  height: 800px;
+  position: relative;
+  left:140px;
+  
+ 
+  
+  
+
+}
+#titresectionbasclient{
+  color:white;
+  font-size: 2.5em;
+  position: relative;
+  right: 50px;
+  bottom: -200px;
+  z-index: 1;
+  color:black;
+  font-family: 'Vidaloka', serif;
+  padding-top: 40px;
+}
+#titresectionbasclient2{
+  color:white;
+  font-size: 2.5em;
+  position: relative;
+  right: 50px;
+  bottom: -145px;
+  z-index: 1;
+  color:black;
+  font-family: 'Vidaloka', serif;
+  
+}
+#titresectionbasclient3{
+  color:white;
+  font-size: 1em;
+  position: relative;
+  right: 50px;
+  bottom: -145px;
+  z-index: 1;
+  color:black;
+  font-family: 'Vidaloka', serif;
+ 
+}
+#gridbasclient{
+  
+  display: grid;
+  grid-template-columns: 20% 20% 20% 20% 20%;
+  grid-template-rows: 20% 20% 20% 20% 20%;
+ 
+  width: 1100px;
+  height: 500px;
+margin : 0px 0px 0px 0px;
+position : relative;
+top: -215px;
+
+  
+}
+
+#placementimageclient{
+  
+  grid-column-start:1;
+  grid-column-end: 8;
+  background-color: #d3d8db;
+  grid-row-start : 1;
+  grid-row-end: 6; 
+}
+
+#image1basclient{
+  position: relative;
+  left:300px;
+  top : -320px;
+  height:320px;
+  width:320px;
+  
+}
+#carresectionbasclient{
+  grid-column-start:4;
+  grid-column-end: 8;
+  background-color: #a3c5d8;
+  grid-row-start : 3;
+  grid-row-end: 6; 
+ 
+}
+
+#iconsectionbasclient{
+  color:white;
+  display:flex;
+  flex-direction: column;
+  padding-left:30px;
+  padding-top:40px;
+  
+}
+#dernierboxclient{
+
+ position: relative;
+  height: 250px;
+  width:250px; 
+  top:-30px;
+  left: 630px;
+  display: flex;
+  justify-content: flex-end;
+  align-items: flex-end;
+  
+}
+
+#derniereimageclient{
+  height: 350px;
+  width: 350px;
+  
+}
+
+#positionementdessousclient{
+  
+  position: relative;
+  top:-230px;
+  height: 235px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  flex-wrap: nowrap;
+  padding-left: 50px;
+  
+  
+}
+#textdessouspositionclient{
+  position: relative;
+  left:-220px;
+  font-size: 1.2em;
+  color:gray;
+  text-align: justify;
+}
+#playdessousclient{
+  position: relative;
+  left:-240px;
+  top:-20px;
+  padding : 0px 0px 0px 0px;
+  font-size: 3em;
+  margin : 0px 0px 0px 0px;
+}
+#textcoteplayclient{
+  position: relative;
+  left:-300px;
+  top:-30px;
+  font-size:0.8em;
+}
+#textcoteplayclient2{
+  color : rgb(132, 132, 192);
+  position: relative;
+  left:-480px;
+  top:-10px;
+  font-size:0.8em;
+  
+  
+}
+
+#flechegauchepageclient{
+  position: relative;
+  left:-170px;
+  top:-40px;
+  font-size: 0.8em;
+
+
+}
+
+#flechedroitepageclient{
+  position: relative;
+  left:-200px;
+  top:-40px;
+  font-size: 0.8em;
+  opacity: 0.4;
+
+}
+
+/* Ajout dessous de page client "latest news par Geoffrey le 23/01/2020" */
+
+
+#latestnewsclient{
+  height:400px;
+  width: 1200px;
+  margin:auto;
+  display: flex;
+  flex-wrap: wrap;
+  position: relative;
+  z-index: 0;
+}
+.latestflex{
+  display: flex;
+  flex-wrap: nowrap;
+  height: 200px;
+  width: 400px;
+  font-size: 1.3em;
+  font-weight: bold;
+  position: relative;
+}
+.latestimage{
+  height:150px;
+  width: 200px;
+  order: 0;
+  position: relative;
+}
+
+
+.latesttext{
+  padding:10px 10px 10px 10px;
+  
+}
+
+.latesttext:hover{
+  color : rgb(95, 95, 182);
+  padding:10px 10px 10px 10px;
+}
+
+
+.latestfiltre{
+  background-color: rgb(132, 132, 192);
+  height: 150px;
+  width:200px;
+  position: absolute;
+  z-index: 1;
+  opacity: 0;
+}
+
+.latestfiltre:hover{
+  background-color: rgb(132, 132, 192);
+  height: 150px;
+  width:200px;
+  position: absolute;
+  z-index: 1;
+  opacity: 0.7;
+  
+}
+
+
+
+
+
+
+
