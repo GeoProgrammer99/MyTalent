@@ -423,6 +423,10 @@ h1 {
   margin-top: 4em;
 }
 
+<<<<<<< HEAD
+=======
+
+>>>>>>> c5eef60a39b0946938b51db202b6d201f4b9b407
 /* Modification de la page "A propos" par Geoffrey le 21-01-2020 */
 
 .parent {
@@ -438,10 +442,15 @@ h1 {
   height: 250px;
   width: 250px;
 }
+<<<<<<< HEAD
 
 .imageabout:hover {
   -webkit-filter: opacity(90%);
   /* Safari */
+=======
+.imageabout:hover {
+  -webkit-filter: opacity(90%); /* Safari */
+>>>>>>> c5eef60a39b0946938b51db202b6d201f4b9b407
   filter: opacity(60%);
 }
 
@@ -455,12 +464,18 @@ h1 {
   color: red;
   animation: rotationFleche 1s linear;
 }
+<<<<<<< HEAD
 
+=======
+>>>>>>> c5eef60a39b0946938b51db202b6d201f4b9b407
 @keyframes rotationFleche {
   0% {
     transform: rotateX(0);
   }
+<<<<<<< HEAD
 
+=======
+>>>>>>> c5eef60a39b0946938b51db202b6d201f4b9b407
   100% {
     transform: rotateX(360deg);
   }
@@ -478,7 +493,10 @@ h1 {
   position: relative;
   left: 140px;
 }
+<<<<<<< HEAD
 
+=======
+>>>>>>> c5eef60a39b0946938b51db202b6d201f4b9b407
 #titresectionbasclient {
   color: white;
   font-size: 2.5em;
@@ -489,7 +507,10 @@ h1 {
   color: black;
   font-family: "Vidaloka", serif;
 }
+<<<<<<< HEAD
 
+=======
+>>>>>>> c5eef60a39b0946938b51db202b6d201f4b9b407
 #titresectionbasclient2 {
   color: white;
   font-size: 2.5em;
@@ -500,7 +521,10 @@ h1 {
   color: black;
   font-family: "Vidaloka", serif;
 }
+<<<<<<< HEAD
 
+=======
+>>>>>>> c5eef60a39b0946938b51db202b6d201f4b9b407
 #titresectionbasclient3 {
   color: white;
   font-size: 1em;
@@ -511,7 +535,10 @@ h1 {
   color: black;
   font-family: "Vidaloka", serif;
 }
+<<<<<<< HEAD
 
+=======
+>>>>>>> c5eef60a39b0946938b51db202b6d201f4b9b407
 #gridbasclient {
   display: grid;
   grid-template-columns: 20% 20% 20% 20% 20%;
@@ -539,7 +566,10 @@ h1 {
   height: 320px;
   width: 320px;
 }
+<<<<<<< HEAD
 
+=======
+>>>>>>> c5eef60a39b0946938b51db202b6d201f4b9b407
 #carresectionbasclient {
   grid-column-start: 4;
   grid-column-end: 8;
@@ -555,7 +585,10 @@ h1 {
   padding-left: 30px;
   padding-top: 40px;
 }
+<<<<<<< HEAD
 
+=======
+>>>>>>> c5eef60a39b0946938b51db202b6d201f4b9b407
 #dernierboxclient {
   position: relative;
   height: 250px;
@@ -583,13 +616,17 @@ h1 {
   padding-left: 50px;
   left: -180px;
 }
+<<<<<<< HEAD
 
+=======
+>>>>>>> c5eef60a39b0946938b51db202b6d201f4b9b407
 #textdessouspositionclient {
   position: relative;
   left: -445px;
   font-size: 1.3em;
 }
 
+<<<<<<< HEAD
 /*modification bawer partie haute page client */
 
 .ag-boss {
@@ -727,12 +764,18 @@ hr {
 /*modification de la partie footer*/
 
 .footermail {
+=======
+/*modification de la partie footer*/
+
+.footermail{
+>>>>>>> c5eef60a39b0946938b51db202b6d201f4b9b407
   float: right;
   border-left: 1px gray double;
   padding-left: 15px;
   margin-top: -70px;
 }
 
+<<<<<<< HEAD
 .linefooter {
   border-top: 1px#d2d0d0 double;
   color: #656363;
@@ -744,3 +787,15 @@ hr {
   margin-top: -44px;
 
 }
+=======
+.linefooter{
+  border-top: 1px#d2d0d0 double;
+  color:#656363;
+  padding-top: 15px;
+}
+
+.iconright{
+  float: right;
+  margin-top: -44px;
+}
+>>>>>>> c5eef60a39b0946938b51db202b6d201f4b9b407
