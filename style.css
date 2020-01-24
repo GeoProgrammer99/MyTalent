@@ -51,6 +51,7 @@ h1{
   z-index: 1;
   -webkit-user-select: none;
   user-select: none;
+  font-family: 'Roboto', sans-serif;
 }
 
 #menuHM a
@@ -62,7 +63,7 @@ h1{
 
 #menuHM a:hover
 {
-  color: tomato;
+  color: #a6c6f3;
 }
 
 #menuHM input
@@ -166,6 +167,8 @@ h1{
     justify-content: space-between;
     display: flex;
     width: 142px;
+    font-family: 'Roboto', sans-serif;
+    text-transform: uppercase;
  
 }
 
