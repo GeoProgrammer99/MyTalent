@@ -306,7 +306,7 @@ h1{
 
 .play i{
   padding: 13px;
-font-size: 45px;
+  font-size: 45px;
 }
 /*Menu actor,musician...*/
 .menu{
@@ -357,9 +357,9 @@ font-size: 45px;
 }
 
 .imgafter h4{
-    font-family: 'Roboto', sans-serif;
-    color: white;
-    padding-top: 315px;
+  font-family: 'Roboto', sans-serif;
+  color: white;
+  padding-top: 315px;
 }
 
 .imgafter h5{
@@ -369,11 +369,11 @@ font-size: 45px;
 }
   
 .imgafter:hover{
- filter: opacity(100%);
- opacity: 1;
- margin-top: -426px;
- text-align: center;
- background-color: rgba(202, 234, 238, 0.9);
+  filter: opacity(100%);
+  opacity: 1;
+  margin-top: -426px;
+  text-align: center;
+  background-color: rgba(202, 234, 238, 0.9);
 }
 
 .fondimg img{
@@ -468,14 +468,12 @@ font-size: 45px;
   grid-row-gap: 0px; 
 }
 
-
 .child1{
   grid-column-start: 1;
   grid-column-end: 3;
 }
 .child1 img{
   width:50%;
-  
 }
 
 .textleft{
@@ -497,8 +495,6 @@ font-size: 45px;
   margin: 100px 0px 0px 30px;
 }
 
-
-
 .btnArticle{
   background-color:white;
   float: right;
@@ -510,8 +506,6 @@ font-size: 45px;
   position: relative;
   text-align: center;
   padding: 10px;
-  
-
 }
 
 .btnArticle a{
@@ -523,7 +517,6 @@ font-size: 45px;
   color:black;
 }
   
-
 .child2{
   grid-column-start: 3;
   grid-column-end: 4;
@@ -628,72 +621,72 @@ font-size: 45px;
 }
 
 /*ALYSON Page Profil*/
-    /*ALYSON image+play*/
-    .am-photo{
-      margin-top: 120px;
-      margin-left: 420px;
-      position:relative;
-      width: 60%;
-      z-index: 1;
-    }
-  
-  .am-play{
-    width: 72px;
-    height: 72px;
-    z-index: 3;
-    position: relative;
-    margin-top: -470px;
-    float: right;
-    margin-right: 80px;
-    color:white;
+
+  /*ALYSON image+play*/
+.am-photo{
+  margin-top: 120px;
+  margin-left: 420px;
+  position:relative;
+  width: 60%;
+  z-index: 1;
   }
   
-  .am-play i{
-    padding: 13px;
-    font-size: 45px;
+.am-play{
+  width: 72px;
+  height: 72px;
+  z-index: 3;
+  position: relative;
+  margin-top: -470px;
+  float: right;
+  margin-right: 80px;
+  color:white;
+}
+  
+.am-play i{
+  padding: 13px;
+  font-size: 45px;
   }
   
-      /*ALYSON numéro gauche*/
-  .am-numleft{
-      float: left;
-      margin-top: -230px;
-      margin-right: 181px;
-      font-size: 10px;
-      margin-left: -20px;
-  }
+  /*ALYSON numéro gauche*/
+.am-numleft{
+  float: left;
+  margin-top: -230px;
+  margin-right: 181px;
+  font-size: 10px;
+  margin-left: -20px;
+}
   
-  .am-numleft li{
-    padding: 10px; 
-    text-align: center;
-    
-  }
-  .am-numleft ol{
-    list-style-type: none;
-  }
+.am-numleft li{
+  padding: 10px; 
+  text-align: center;    
+}
+
+.am-numleft ol{
+  list-style-type: none;
+}
   
-      /*ALYSON Titre Derek*/
-  .am-derek{
-      margin-left: 150px;
-      color:
-      gray;
-      position: absolute;
-      z-index: 2;
-      font-size: 40px;
-      margin-top: -456px;
-  }
+  /*ALYSON Titre Derek*/
+.am-derek{
+  margin-left: 150px;
+  color:
+  gray;
+  position: absolute;
+  z-index: 2;
+  font-size: 40px;
+  margin-top: -456px;
+}
   
-  .am-derek h1{
-    font-family: 'Montserrat', sans-serif;
-  }
+.am-derek h1{
+  font-family: 'Montserrat', sans-serif;
+}
   
-  .am-derek h6{
-    font-family: 'Roboto', sans-serif;
-    font-size: 15px;
-    text-transform: uppercase;
-  }
+.am-derek h6{
+  font-family: 'Roboto', sans-serif;
+  font-size: 15px;
+  text-transform: uppercase;
+}
 
   /*ALYSON flèches*/
-
 .am-arrows{
   text-align: center;
   margin-left: 130px;
@@ -710,334 +703,333 @@ font-size: 45px;
 }
   
   /*ALYSON Enquire About Derek*/
-  .enquiresaboutderek{
-      font-family: 'Roboto', sans-serif;
-      font-weight: bold;
-      margin-top: -78px;
-      width: 280px;
-      text-align: center;
-      color:gray;
-      text-transform: uppercase;
-      background-color:white;
-      padding: 20px;
-      margin-left: 420px;
-      z-index: 2;
-      position: relative;
-  }
+.enquiresaboutderek{
+  font-family: 'Roboto', sans-serif;
+  font-weight: bold;
+  margin-top: -78px;
+  width: 280px;
+  text-align: center;
+  color:gray;
+  text-transform: uppercase;
+  background-color:white;
+  padding: 20px;
+  margin-left: 420px;
+  z-index: 2;
+  position: relative;
+}
   
-  .enquiresaboutderek p{
-      font-size:10px;
-      letter-spacing: .2rem;
-  }
+.enquiresaboutderek p{
+  font-size:10px;
+  letter-spacing: .2rem;
+}
   
-      /*ALYSON Image 1 Gauche*/
-  .am-imagegauche1{
-      padding:40px;
-  }
+  /*ALYSON Image 1 Gauche*/
+.am-imagegauche1{
+  padding:40px;
+}
   
-      /*ALYSON Menu*/
-  .am-menu{
-      margin-top: -700px;
+  /*ALYSON Menu*/
+.am-menu{
+  margin-top: -700px;
   margin-left: -111px;
   float: right;
   margin-right: 200px;
-  }
+}
   
-  .am-menu ul{
-      width: 400px;
-      text-align: justify;
-      margin: auto;
-      margin-top: 40px;
-      display: flex;
-      justify-content: space-between;
-  }
+.am-menu ul{
+  width: 400px;
+  text-align: justify;
+  margin: auto;
+  margin-top: 40px;
+  display: flex;
+  justify-content: space-between;
+}
   
-  .am-menu li{
-      list-style-type: none;
-      font-family: 'Roboto', sans-serif;
-      font-weight: bold;
-      letter-spacing: .2rem;
-      padding: 0 20px 0 20px;
-  }
+.am-menu li{
+  list-style-type: none;
+  font-family: 'Roboto', sans-serif;
+  font-weight: bold;
+  letter-spacing: .2rem;
+  padding: 0 20px 0 20px;
+}
     
-  .am-menu li:hover{
-      border-bottom: 1px solid black;
-      padding-bottom: 5px;
-  }
-      /*ALYSON texte droite */
-  .am-textedroite1{
-      width: 420px;
-      float: right;
-      margin-top: -600px;
-      margin-right: 160px;
-  }
-  
-  .am-textedroite1 h2{
-      font-family: 'Roboto', sans-serif;
-      font-size: 50px;
-      margin: 10px;
-      margin-left: 0px;
-  }
-  
-  .am-textedroite1 h3{
-      font-family: 'Roboto', sans-serif;
-      font-size: 25px;
-      font-weight: normal;
-      margin: 0px;
-  }
-  
-  .am-textedroite1 i{
-      margin-top:10px;
-  }
-  
-  .am-textedroite1 h4{
-      font-family: 'Roboto', sans-serif;
-      font-size: 10px;
-      margin-left: 30px;
-      margin-top: -15px;
-  }
-  
-  .am-textedroite1 p{
-      font-family: 'Roboto', sans-serif;
-      color:gray;
-  }
-  
-      /*ALYSON icons droite*/
-  .am-iconright{
-      margin-top: -500px;
-      display: grid;
-      float:right;
-  }
-  
-  .fab {
-    font-family: "Font Awesome 5 Brands";
-    padding: 10px;
-  }
-  
-      /*ALYSON image droite*/
-  .am-imagedroite{
-      float:right;
-      padding:40px;
-  }
-  
-      /*ALYSON texte gauche 1*/
-  .am-textegauche1 h2{
-      font-family: 'Roboto', sans-serif;
-      font-size: 50px;
-      margin-left: 150px;
-      width: 400px;
-      margin-top: 150px;
-  }
-  
-      /*ALYSON ligne1*/
-  .am-line1{
-      border: solid 1px black;
-      width: 100px;
-      margin-left: 150px;
-      padding: 0px;
-      margin-top: -30px;
-  }
-  
-      /*ALYSON articles gauche*/
-  .am-imggchart{
-      float: left;
-      width: 500px;
-      margin-left: 150px;
-  }
-  
-  .am-imggchart img{
-      width: 150px;
-      margin-top:50px;
-      padding-top:30px;
-      padding-bottom:30px;
-  }
-  
-  .am-imggchart i{
-      width: 150px;
-      height: 80px;
-      background-color:#b2c9f0;
-      font-size: 50px;
-      text-align: center;
-      padding-top: 30px;
-      color:white;
-  }
-  
-  .textart1{
-      width: 300px;
-      float: right;
-      margin-top: 70px; 
-  }
-  
-  .textart2{
-      width: 300px;
-      float: right;
-      margin-top: -5px; 
-  }
-  
-      /*ALYSON explore more*/
-  .am-exploremore1{
-    margin-top: 370px;
-  }
-  
-  .am-exploremore1 a{
-      font-family: 'Roboto', sans-serif;
-      font-size: 15px;
-      text-transform: uppercase;
-      text-decoration: none;
-      color: black;
-      padding-right:25px;
-      margin-left:150px
-  }
-  
-    /*ALYSON texte gauche 2*/
-  .am-textegauche2 h2{
-      font-family: 'Roboto', sans-serif;
-      font-size: 50px;
-      margin-left: 150px;
-      width: 400px;
-      margin-top: 150px;
-  }
-    /*ALYSON ligne 2 + texte droite*/
-  .am-line2{
-      border: solid 1px black;
-      width: 100px;
-      margin-left: 150px;
-      padding: 0px;
-      margin-top: -30px;
-  }
-  
-  .am-exploremore2{
-    margin-top: -10px;
-    float: right;
-    margin-right: 300px;
-    
-  }
-  
-  .am-exploremore2 a{
-      font-family: 'Roboto', sans-serif;
-      font-size: 15px;
-      text-transform: uppercase;
-      text-decoration: none;
-      color: black;
-      padding-right:25px;
-      margin-left:150px
-  }
-  
-  .am-textedroite2{
-    width: 420px;
-    float: right;
-    margin-right: 30px;
-    margin-top: -115px;
-  }
-  
-  .am-textedroite2 p{
-    font-family: 'Roboto', sans-serif;
-    color:gray;
-  }
-  
-    /*ALYSON gallerie*/
-  .am-container{
-    display: grid;
-    grid-template-columns: repeat(4, 1fr);   
-     grid-template-rows: 1fr ;
-      grid-column-gap: 0px;
-      grid-row-gap: 0px;
-      margin-top: 80px; 
-      padding-right: 40px;
-      padding-left: 40px;
-      margin-bottom:200px;
-    }
-    
-    .am-container img{
-      width:280px;
-      height: 400px;
-    }
-  
-    .am-imageafter{
-      opacity: 0;
-      margin-top: -404px;
-      height: 400px;
-    }
-    
-    .am-imageafter h4{
-        font-family: 'Roboto', sans-serif;
-        color: white;
-        padding-top: 250px;
-    }
-    
-    .am-imageafter h5{
-      font-family: 'Roboto', sans-serif;
-      color: white;
-      text-transform: uppercase;
-      margin-top:-15px;
-    }
+.am-menu li:hover{
+  border-bottom: 1px solid black;
+  padding-bottom: 5px;
+}
 
-    .am-imageafter i{
-      color:white;
-      margin-top: 20px;
-      margin-left: 200px;
-      background-color:#b2c9f0;
-      width: 50px;
-      height: 30px;
-      padding-top: 15px;
-      border-radius: 30px;
-    }
-      
-    .am-imageafter:hover{
-     filter: opacity(100%);
-     opacity: 1;
-     margin-top: -404px;
-     text-align: center;
-     background-color: rgba(68, 82, 83, 0.9);
-    }
-    
-    .am-fondimg1{
-      grid-column-start: 1;
-      grid-column-end: 2;
-      grid-row-start: 1;
-      grid-row-end: 2
-    }
+  /*ALYSON texte droite */
+.am-textedroite1{
+  width: 420px;
+  float: right;
+  margin-top: -600px;
+  margin-right: 160px;
+}
   
-    .am-fondimg2{
-      grid-column-start: 2;
+.am-textedroite1 h2{
+  font-family: 'Roboto', sans-serif;
+  font-size: 50px;
+  margin: 10px;
+  margin-left: 0px;
+}
+  
+.am-textedroite1 h3{
+  font-family: 'Roboto', sans-serif;
+  font-size: 25px;
+  font-weight: normal;
+  margin: 0px;
+}
+  
+.am-textedroite1 i{
+  margin-top:10px;
+}
+  
+.am-textedroite1 h4{
+  font-family: 'Roboto', sans-serif;
+  font-size: 10px;
+  margin-left: 30px;
+  margin-top: -15px;
+}
+  
+.am-textedroite1 p{
+  font-family: 'Roboto', sans-serif;
+  color:gray;
+}
+  
+  /*ALYSON icons droite*/
+.am-iconright{
+  margin-top: -500px;
+  display: grid;
+  float:right;
+}
+  
+.fab {
+  font-family: "Font Awesome 5 Brands";
+  padding: 10px;
+}
+  
+  /*ALYSON image droite*/
+.am-imagedroite{
+  float:right;
+  padding:40px;
+}
+  
+  /*ALYSON texte gauche 1*/
+.am-textegauche1 h2{
+  font-family: 'Roboto', sans-serif;
+  font-size: 50px;
+  margin-left: 150px;
+  width: 400px;
+  margin-top: 150px;
+}
+  
+  /*ALYSON ligne1*/
+.am-line1{
+  border: solid 1px black;
+  width: 100px;
+  margin-left: 150px;
+  padding: 0px;
+  margin-top: -30px;
+}
+  
+  /*ALYSON articles gauche*/
+.am-imggchart{
+  float: left;
+  width: 500px;
+  margin-left: 150px;
+}
+  
+.am-imggchart img{
+  width: 150px;
+  margin-top:50px;
+  padding-top:30px;
+  padding-bottom:30px;
+}
+  
+.am-imggchart i{
+  width: 150px;
+  height: 80px;
+  background-color:#b2c9f0;
+  font-size: 50px;
+  text-align: center;
+  padding-top: 30px;
+  color:white;
+}
+  
+.textart1{
+  width: 300px;
+  float: right;
+  margin-top: 70px; 
+}
+  
+.textart2{
+  width: 300px;
+  float: right;
+  margin-top: -5px; 
+}
+  
+  /*ALYSON explore more*/
+.am-exploremore1{
+  margin-top: 370px;
+}
+  
+.am-exploremore1 a{
+  font-family: 'Roboto', sans-serif;
+  font-size: 15px;
+  text-transform: uppercase;
+  text-decoration: none;
+  color: black;
+  padding-right:25px;
+  margin-left:150px
+}
+  
+  /*ALYSON texte gauche 2*/
+.am-textegauche2 h2{
+  font-family: 'Roboto', sans-serif;
+  font-size: 50px;
+  margin-left: 150px;
+  width: 400px;
+  margin-top: 150px;
+}
+
+  /*ALYSON ligne 2 + texte droite*/
+.am-line2{
+  border: solid 1px black;
+  width: 100px;
+  margin-left: 150px;
+  padding: 0px;
+  margin-top: -30px;
+}
+  
+.am-exploremore2{
+  margin-top: -10px;
+  float: right;
+  margin-right: 300px;    
+}
+  
+.am-exploremore2 a{
+  font-family: 'Roboto', sans-serif;
+  font-size: 15px;
+  text-transform: uppercase;
+  text-decoration: none;
+  color: black;
+  padding-right:25px;
+  margin-left:150px
+}
+  
+.am-textedroite2{
+  width: 420px;
+  float: right;
+  margin-right: 30px;
+  margin-top: -115px;
+}
+  
+.am-textedroite2 p{
+  font-family: 'Roboto', sans-serif;
+  color:gray;
+}
+  
+  /*ALYSON gallerie*/
+.am-container{
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);   
+  grid-template-rows: 1fr ;
+  grid-column-gap: 0px;
+  grid-row-gap: 0px;
+  margin-top: 80px; 
+  padding-right: 40px;
+  padding-left: 40px;
+  margin-bottom:200px;
+}
+    
+.am-container img{
+  width:280px;
+  height: 400px;
+}
+  
+.am-imageafter{
+  opacity: 0;
+  margin-top: -404px;
+  height: 400px;
+}
+    
+.am-imageafter h4{
+  font-family: 'Roboto', sans-serif;
+  color: white;
+  padding-top: 250px;
+}
+    
+.am-imageafter h5{
+  font-family: 'Roboto', sans-serif;
+  color: white;
+  text-transform: uppercase;
+  margin-top:-15px;
+}
+
+.am-imageafter i{
+  color:white;
+  margin-top: 20px;
+  margin-left: 200px;
+  background-color:#b2c9f0;
+  width: 50px;
+  height: 30px;
+  padding-top: 15px;
+  border-radius: 30px;
+}
+      
+.am-imageafter:hover{
+  filter: opacity(100%);
+  opacity: 1;
+  margin-top: -404px;
+  text-align: center;
+  background-color: rgba(68, 82, 83, 0.9);
+}
+    
+.am-fondimg1{
+  grid-column-start: 1;
+  grid-column-end: 2;
+  grid-row-start: 1;
+  grid-row-end: 2
+}
+  
+.am-fondimg2{
+  grid-column-start: 2;
   grid-column-end: 3;
   grid-row-start: 1;
   grid-row-end: 2;
+}
   
-    }
+.am-fondimg3{
+  grid-column-start: 3;
+  grid-column-end: 4;
+  grid-row-start: 1;
+  grid-row-end: 2;  
+}
   
-    .am-fondimg3{
-      grid-column-start: 3;
-      grid-column-end: 4;
-      grid-row-start: 1;
-  grid-row-end: 2;
-  
-    }
-  
-    .am-fondimg4{
-      grid-column-start: 4;
+.am-fondimg4{
+  grid-column-start: 4;
   grid-column-end: 5;
   grid-row-start: 1;
   grid-row-end: 2;
-    }
+}
   
-    /*ALYSON footer*/
-    .footermail{
-      float: right;
-      border-left: 1px gray double;
-      padding-left: 15px;
-      margin-top: -70px;
-    }
+  /*ALYSON footer*/
+.footermail{
+  float: right;
+  border-left: 1px gray double;
+  padding-left: 15px;
+  margin-top: -70px;
+}
     
-    .linefooter{
-      border-top: 1px#d2d0d0 double;
-      color:#656363;
-      padding-top: 15px;
-    }
+.linefooter{
+  border-top: 1px#d2d0d0 double;
+  color:#656363;
+  padding-top: 15px;
+}
     
-    .iconright{
-      float: right;
-      margin-top: -44px;
-    }
+.iconright{
+  float: right;
+  margin-top: -44px;
+}
   
   /*ALYSON fin Page Profil*/
