@@ -647,6 +647,7 @@ font-size: 45px;
   justify-content: center;
   align-items: center;
   margin : 0px auto ;
+  margin-top: 50px;
   
   }
   
@@ -1606,6 +1607,115 @@ background: white;
 
 /*fin de contact*/
   
+.haut {
+  display: flex;
+  margin-right: -40px;
+  margin-left: -40px;
+  margin-top: -110px;
+  height: 800px;
+  }
+  
+  .gauche {
+  background-image: url("images/profile.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  width: 40%;
+  flex-direction: column;
+  }
+  
+  .droite {
+  width: 768px;
+  height: 800px;
+  display: grid;
+  grid-template-columns: 20% 20% 20% 20% 20%;
+  grid-template-rows: 20% 20% 20% 20% 20%;
+  grid-column-gap: 0px;
+  grid-row-gap: 0px;
+  background-color: white;
+  }
+  
+  .contactus {
+  width: 70%;
+  height: 100px;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  background: rgb(221, 255, 253);
+  background: linear-gradient(28deg,
+  rgba(221, 255, 253, 1) 0%,
+  rgba(229, 231, 255, 1) 30%,
+  rgba(166, 206, 214, 1) 100%);
+  position: relative;
+  bottom: -456px;
+  }
+  
+  .vraicontact {
+  color: white;
+  }
+  
+  .contactus h3 {
+  margin-right: -70px;
+  font-family: "Montserrat";
+  }
+  
+  .symbole {
+  background-color: white;
+  padding: 40px;
+  margin-right: -70px;
+  }
+  
+  .degradeinutile {
+  grid-column-start: 5;
+  grid-row-start: 1;
+  grid-row-end: 3;
+  background: rgb(221, 255, 253);
+  background: linear-gradient(28deg,
+  rgba(221, 255, 253, 1) 0%,
+  rgba(229, 231, 255, 1) 30%,
+  rgba(166, 206, 214, 1) 100%);
+  }
+  
+  .ag-texte {
+  grid-column-start: 2;
+  grid-column-end: 4;
+  grid-row-start: 2;
+  grid-row-end: 4;
+  text-align: left;
+  font-family: "Roboto";
+  margin-right: -100px;
+  padding-right: 2em;
+  
+  margin-top: -30px;
+  }
+  
+  .ag-texte p {
+  color: rgb(167, 164, 164);
+  line-height: 1.8;
+  font-size: 20px;
+  }
+  
+  .ag-texte h3 {
+  font-family: "Montserrat";
+  text-align: center;
+  }
+  
+  .ag-texte h3::first-letter {
+  font-size: 140%;
+  }
+  
+  .ag-fond {
+  background-color: black;
+  color: white;
+  grid-column-start: 2;
+  grid-column-end: 4;
+  grid-row-start: 5;
+  text-align: center;
+  margin: -20px -75px 0px 0px;
+  }
+  
+  .ag-fond p {
+  margin-top: 4em;
+  }
 
 
 
