@@ -3,6 +3,10 @@ html{
     background-color: black;
 }
 
+a{
+  text-decoration: none;
+  color: black;
+}
 
 body{
     margin: auto;
@@ -144,6 +148,7 @@ h1{
 {
   padding: 10px 0;
   font-size: 22px;
+  font-family: 'Roboto', sans-serif;
 }
 
 #menuHM input:checked ~ ul
@@ -157,6 +162,7 @@ h1{
 
 #nav2{
     margin-left: 62px;
+    font-family: 'Roboto', sans-serif;
 }
 
 #nav2 ul{
@@ -440,6 +446,11 @@ font-size: 45px;
   width: 90px;
   height: 75px;
   background-color: #a6c6f3;
+}
+.fondblue i{
+  font-size: 30px;
+  padding: 23px;
+  margin-left: 5px;
 }
 
 .wrap{
